@@ -13,7 +13,7 @@ function CatFacts() {
         randomCatTag()}, [])
 
     async function fetchData1() {
-        let url = "https://meowfacts.herokuapp.com/?count=3"
+        let url = "https://meowfacts.herokuapp.com/?count=50"
 
         const response = await fetch(url) 
         const data = await response.json()
